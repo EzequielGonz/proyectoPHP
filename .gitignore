@@ -1,0 +1,37 @@
+# Archivos de configuración con datos sensibles
+config/database.php
+config/db.php
+
+# Archivos de sesión
+*.session
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Archivos de uploads (si no quieres versionarlos)
+uploads/*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencias (si usas Composer)
+vendor/
+composer.lock
+
+# Archivos de configuración del servidor
+.env
+
+# Archivos de debug
+debug.php
+error_test.php
